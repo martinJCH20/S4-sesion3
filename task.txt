@@ -1,0 +1,10 @@
+  
+1) crear un componente que tenga una lista y esta lista viene de un servicio (utilizar fetch) 
+GET - http://dummy.restapiexample.com/api/v1/employees
+2) Cargar la data en el componentDidMount y asignar la data a un estado.
+3) renderizar la data.
+4) dar estilos a su gusto.
+
+fetch('url')
+    .then(res => res.json());
+    .then(data => this.setState({data}));
